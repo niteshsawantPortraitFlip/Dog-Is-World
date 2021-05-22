@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>Grid Right Sidebar | Porto - Responsive HTML5 Template</title>	
+		<title>Porto - Responsive HTML5 Template</title>	
 
 		<meta name="keywords" content="HTML5 Template" />
 		<meta name="description" content="Porto - Responsive HTML5 Template">
@@ -37,6 +37,9 @@
 		<link rel="stylesheet" href="css/theme-blog.css">
 		<link rel="stylesheet" href="css/theme-shop.css">
 
+		<!-- Current Page CSS -->
+		<link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css">
+
 		<!-- Skin CSS -->
 		<link id="skinCSS" rel="stylesheet" href="css/skins/default.css">
 
@@ -47,45 +50,32 @@
 		<script src="vendor/modernizr/modernizr.min.js"></script>
 
 	</head>
+
 	<body data-plugin-page-transition>
 
 		<div class="body">
-			<header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 120, 'stickyHeaderContainerHeight': 70}">
-				<div class="header-body border-top-0">
-					<div class="header-top header-top-default border-bottom-0 " style="background-color: white;">
-						<div class="container">
-							<div class="header-row py-2">
-								<div class="header-container container container-xl-custom" style="min-height: 122px; width: 80%;" >
-									<a href="https://www.portraitflip.com/pet-portraits/" target="_blank">
-										<img alt="Porto" class="img-fluid ps-3"  src="https://dogisworld.com/wp-content/uploads/2020/09/Banner-4-1.jpg" />
-									</a>
-									
-								</div>
-							</div>
-						</div>
-					</div>
+			<header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': false, 'stickyEnableOnMobile': false, 'stickyStartAt': 70, 'stickyChangeLogo': false, 'stickyHeaderContainerHeight': 70}">
+				<div class="header-body border-top-0 box-shadow-none">
 					<div class="header-container header-container-md container">
 						<div class="header-row">
 							<div class="header-column">
 								<div class="header-row">
 									<div class="header-logo">
-										<a href="https://dogisworld.com/">
-											<img alt="Porto" width="180" height="80" data-sticky-width="130" data-sticky-height="48" src="https://dogisworld.com/wp-content/uploads/2020/07/Untitled-design-3.png">
-										</a>
+										<a href="index.html"><img alt="Porto" width="100" height="48" data-sticky-width="82" data-sticky-height="40" data-sticky-top="0" src="img/logo-default-slim.png"></a>
 									</div>
 								</div>
 							</div>
 							<div class="header-column justify-content-end">
 								<div class="header-row">
 									<div class="header-nav header-nav-line header-nav-bottom-line header-nav-bottom-line-no-transform header-nav-bottom-line-active-text-dark header-nav-bottom-line-effect-1 order-2 order-lg-1">
-										<div class="header-nav-main header-nav-main-square header-nav-main-text-capitalize header-nav-main-text-size-2 header-nav-main-text-weight-600 header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
+										<div class="header-nav-main header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
 											<nav class="collapse">
 												<ul class="nav nav-pills" id="mainNav">
 													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="Dog-Breed.html">
-															DOG BREED
+														<a class="dropdown-item dropdown-toggle" href="index.html">
+															Home
 														</a>
-														<!-- <ul class="dropdown-menu">
+														<ul class="dropdown-menu">
 															<li>
 																<a class="dropdown-item" href="index.html">
 																	Landing Page
@@ -148,13 +138,13 @@
 																	<li><a class="dropdown-item" href="index-one-page.html">One Page Original</a></li>
 																</ul>
 															</li>
-														</ul> -->
+														</ul>
 													</li>
 													<li class="dropdown dropdown-mega">
-														<a class="dropdown-item dropdown-toggle" href="Dog-Health_And_Care.html">
-															DOG HEALTH & CARE
+														<a class="dropdown-item dropdown-toggle" href="elements.html">
+															Elements
 														</a>
-														<!-- <ul class="dropdown-menu">
+														<ul class="dropdown-menu">
 															<li>
 																<div class="dropdown-mega-content">
 																	<div class="row">
@@ -226,13 +216,13 @@
 																	</div>
 																</div>
 															</li>
-														</ul> -->
+														</ul>
 													</li>
 													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle active" href="Dog-Food.html">
-															DOG FOOD
+														<a class="dropdown-item dropdown-toggle active" href="#">
+															Features
 														</a>
-														<!-- <ul class="dropdown-menu">
+														<ul class="dropdown-menu">
 															<li class="dropdown-submenu">
 																<a class="dropdown-item" href="#">Headers</a>
 																<ul class="dropdown-menu">
@@ -716,13 +706,13 @@
 															<li>
 																<a class="dropdown-item" href="feature-gdpr.html">GDPR</a>
 															</li>
-														</ul> -->
+														</ul>
 													</li>
 													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="Dog-Training.html">
-															DOG TRAINING
+														<a class="dropdown-item dropdown-toggle" href="#">
+															Pages
 														</a>
-														<!-- <ul class="dropdown-menu">
+														<ul class="dropdown-menu">
 															<li class="dropdown-submenu">
 																<a class="dropdown-item" href="#">Contact Us</a>
 																<ul class="dropdown-menu">
@@ -781,13 +771,13 @@
 															<li><a class="dropdown-item" href="page-faq.html">FAQ</a></li>
 															<li><a class="dropdown-item" href="page-login.html">Login / Register</a></li>
 															<li><a class="dropdown-item" href="page-user-profile.html">User Profile</a></li>
-														</ul> -->
+														</ul>
 													</li>
 													<li class="dropdown">
-														<a class="dropdown-item dropdown-toggle" href="Lifestyle">
-															LIFESTYLE
+														<a class="dropdown-item dropdown-toggle" href="#">
+															Portfolio
 														</a>
-														<!-- <ul class="dropdown-menu">
+														<ul class="dropdown-menu">
 															<li class="dropdown-submenu">
 																<a class="dropdown-item" href="#">Single Project</a>
 																<ul class="dropdown-menu">
@@ -860,15 +850,94 @@
 																	<li><a class="dropdown-item" href="portfolio-extra-combination-filters.html">Combination Filters</a></li>
 																</ul>
 															</li>
-														</ul> -->
+														</ul>
 													</li>
-													
-													
 													<li class="dropdown">
 														<a class="dropdown-item dropdown-toggle" href="#">
-															PRODUCT REVIEWS
+															Blog
 														</a>
-														<!-- <ul class="dropdown-menu">
+														<ul class="dropdown-menu">
+															<li class="dropdown-submenu">
+																<a class="dropdown-item" href="#">Large Image</a>
+																<ul class="dropdown-menu">
+																	<li><a class="dropdown-item" href="blog-large-image-full-width.html">Full Width</a></li>
+																	<li><a class="dropdown-item" href="blog-large-image-sidebar-left.html">Left Sidebar</a></li>
+																	<li><a class="dropdown-item" href="blog-large-image-sidebar-right.html">Right Sidebar </a></li>
+																	<li><a class="dropdown-item" href="blog-large-image-sidebar-left-and-right.html">Left and Right Sidebar</a></li>
+																</ul>
+															</li>
+															<li class="dropdown-submenu">
+																<a class="dropdown-item" href="#">Medium Image</a>
+																<ul class="dropdown-menu">
+																	<li><a class="dropdown-item" href="blog-medium-image-sidebar-left.html">Left Sidebar</a></li>
+																	<li><a class="dropdown-item" href="blog-medium-image-sidebar-right.html">Right Sidebar </a></li>
+																</ul>
+															</li>
+															<li class="dropdown-submenu">
+																<a class="dropdown-item" href="#">Grid</a>
+																<ul class="dropdown-menu">
+																	<li><a class="dropdown-item" href="blog-grid-4-columns.html">4 Columns</a></li>
+																	<li><a class="dropdown-item" href="blog-grid-3-columns.html">3 Columns</a></li>
+																	<li><a class="dropdown-item" href="blog-grid-full-width.html">Full Width</a></li>
+																	<li><a class="dropdown-item" href="blog-grid-no-margins.html">No Margins</a></li>
+																	<li><a class="dropdown-item" href="blog-grid-no-margins-full-width.html">No Margins Full Width</a></li>
+																	<li><a class="dropdown-item" href="blog-grid-sidebar-left.html">Left Sidebar</a></li>
+																	<li><a class="dropdown-item" href="blog-grid-sidebar-right.html">Right Sidebar </a></li>
+																	<li><a class="dropdown-item" href="blog-grid-sidebar-left-and-right.html">Left and Right Sidebar</a></li>
+																</ul>
+															</li>
+															<li class="dropdown-submenu">
+																<a class="dropdown-item" href="#">Masonry</a>
+																<ul class="dropdown-menu">
+																	<li><a class="dropdown-item" href="blog-masonry-4-columns.html">4 Columns</a></li>
+																	<li><a class="dropdown-item" href="blog-masonry-3-columns.html">3 Columns</a></li>
+																	<li><a class="dropdown-item" href="blog-masonry-full-width.html">Full Width</a></li>
+																	<li><a class="dropdown-item" href="blog-masonry-no-margins.html">No Margins</a></li>
+																	<li><a class="dropdown-item" href="blog-masonry-no-margins-full-width.html">No Margins Full Width</a></li>
+																	<li><a class="dropdown-item" href="blog-masonry-sidebar-left.html">Left Sidebar</a></li>
+																	<li><a class="dropdown-item" href="blog-masonry-sidebar-right.html">Right Sidebar </a></li>
+																</ul>
+															</li>
+															<li class="dropdown-submenu">
+																<a class="dropdown-item" href="#">Timeline</a>
+																<ul class="dropdown-menu">
+																	<li><a class="dropdown-item" href="blog-timeline.html">Full Width</a></li>
+																	<li><a class="dropdown-item" href="blog-timeline-sidebar-left.html">Left Sidebar</a></li>
+																	<li><a class="dropdown-item" href="blog-timeline-sidebar-right.html">Right Sidebar </a></li>
+																</ul>
+															</li>
+															<li class="dropdown-submenu">
+																<a class="dropdown-item" href="#">Single Post</a>
+																<ul class="dropdown-menu">
+																	<li><a class="dropdown-item" href="blog-post.html">Full Width</a></li>
+																	<li><a class="dropdown-item" href="blog-post-slider-gallery.html">Slider Gallery</a></li>
+																	<li><a class="dropdown-item" href="blog-post-image-gallery.html">Image Gallery</a></li>
+																	<li><a class="dropdown-item" href="blog-post-embedded-video.html">Embedded Video</a></li>
+																	<li><a class="dropdown-item" href="blog-post-html5-video.html">HTML5 Video</a></li>
+																	<li><a class="dropdown-item" href="blog-post-blockquote.html">Blockquote</a></li>
+																	<li><a class="dropdown-item" href="blog-post-link.html">Link</a></li>
+																	<li><a class="dropdown-item" href="blog-post-embedded-audio.html">Embedded Audio</a></li>
+																	<li><a class="dropdown-item" href="blog-post-small-image.html">Small Image</a></li>
+																	<li><a class="dropdown-item" href="blog-post-sidebar-left.html">Left Sidebar</a></li>
+																	<li><a class="dropdown-item" href="blog-post-sidebar-right.html">Right Sidebar </a></li>
+																	<li><a class="dropdown-item" href="blog-post-sidebar-left-and-right.html">Left and Right Sidebar</a></li>
+																</ul>
+															</li>
+															<li class="dropdown-submenu">
+																<a class="dropdown-item" href="#">Post Comments</a>
+																<ul class="dropdown-menu">
+																	<li><a class="dropdown-item" href="blog-post.html#comments">Default</a></li>
+																	<li><a class="dropdown-item" href="blog-post-comments-facebook.html#comments">Facebook Comments</a></li>
+																	<li><a class="dropdown-item" href="blog-post-comments-disqus.html#comments">Disqus Comments</a></li>
+																</ul>
+															</li>
+														</ul>
+													</li>
+													<li class="dropdown">
+														<a class="dropdown-item dropdown-toggle" href="#">
+															Shop
+														</a>
+														<ul class="dropdown-menu">
 															<li class="dropdown-submenu">
 																<a class="dropdown-item" href="#">Single Product</a>
 																<ul class="dropdown-menu">
@@ -909,7 +978,7 @@
 															<li><a class="dropdown-item" href="shop-login.html">Login</a></li>
 															<li><a class="dropdown-item" href="shop-checkout.html">Checkout</a></li>
 															<li><a class="dropdown-item" href="shop-order-complete.html">Order Complete</a></li>
-														</ul> -->
+														</ul>
 													</li>
 												</ul>
 											</nav>
@@ -932,7 +1001,7 @@
 												</form>
 											</div>
 										</div>
-										<!-- <div class="header-nav-feature header-nav-features-cart d-inline-flex ms-2">
+										<div class="header-nav-feature header-nav-features-cart d-inline-flex ms-2">
 											<a href="#" class="header-nav-features-toggle">
 												<img src="img/icons/icon-cart.svg" width="14" alt="" class="header-nav-top-icon-img">
 												<span class="cart-info">
@@ -963,7 +1032,7 @@
 													<a class="btn btn-primary" href="#">Checkout</a>
 												</div>
 											</div>
-										</div> -->
+										</div>
 									</div>
 								</div>
 							</div>
@@ -973,547 +1042,535 @@
 			</header>
 
 			<div role="main" class="main">
-				<div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-horizontal-center show-dots-hover show-dots-xs nav-style-1 nav-inside nav-inside-plus nav-dark nav-lg nav-font-size-lg show-nav-hover mb-0" data-plugin-options="{'autoplayTimeout': 7000}" data-dynamic-height="['700px','700px','700px','550px','500px']" style="height: 700px;">
-					<div class="owl-stage-outer">
-						<div class="owl-stage">
-				
-							<!-- Carousel Slide 1 -->
-							<div class="owl-item position-relative overflow-hidden" style="background-image: url(img/slides/slide-corporate-9-1.jpg); background-size: cover; background-position: center;">
-								<div class="container position-relative z-index-3 h-100">
-									<div class="row justify-content-center align-items-center h-100">
-										<div class="col-lg-7">
-											<div class="d-flex flex-column align-items-center">
-												<h2 class="position-relative text-color-dark text-5 line-height-5 font-weight-semibold ls-0 px-4 mb-2 appear-animation" data-appear-animation="fadeInDownShorterPlus" data-plugin-options="{'minWindowWidth': 0}">
-													<span class="position-absolute right-100pct top-50pct transform3dy-n50">
-														<img src="img/slides/slide-title-border-light.png" class="w-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
-													</span>
-													MAKE BETTER <span class="position-relative">THINGS <span class="position-absolute left-50pct transform3dx-n50 top-0 mt-4"><img src="img/slides/slide-dark-line.png" class="w-auto ms-4 appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}" alt="" /></span></span>
-													<span class="position-absolute left-100pct top-50pct transform3dy-n50">
-														<img src="img/slides/slide-title-border-light.png" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
-													</span>
-												</h2>
-												<h1 class="text-color-dark font-weight-extra-bold text-10 text-md-12-13 line-height-1 text-center mb-2 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">PORTO TEMPLATE</h1>
-												<p class="text-4-5 text-color-dark font-weight-light text-center mb-4" data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0, 'animationSpeed': 30}">Check out our options and features</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							
-							<!-- Carousel Slide 2 -->
-							<!-- <div class="owl-item position-relative" style="background-image: url(img/slides/slide-corporate-9-2.jpg); background-size: cover; background-position: center;">
-								<div class="container position-relative z-index-1 h-100">
-									<div class="row justify-content-center align-items-center h-100">
-										<div class="col-lg-7">
-											<div class="d-flex flex-column align-items-center">
-												<h2 class="text-color-dark font-weight-extra-bold text-10 text-md-12-13 line-height-1 text-center mb-2 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">AMAZING DESIGN</h2>
-												<p class="text-4-5 text-color-dark font-weight-light text-center mb-4" data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0, 'animationSpeed': 30}">The best choice for your new website</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div> -->
-						
+				<div class="owl-carousel-wrapper position-relative" style="height: 670px">
+					<div class="owl-carousel-loader">
+						<div class="bounce-loader">
+							<div class="bounce1"></div>
+							<div class="bounce2"></div>
+							<div class="bounce3"></div>
 						</div>
 					</div>
-					<!-- <div class="owl-nav">
-						<button type="button" role="presentation" class="owl-prev"></button>
-						<button type="button" role="presentation" class="owl-next"></button>
-					</div>
-					<div class="owl-dots mb-5">
-						<button role="button" class="owl-dot active"><span></span></button>
-						<button role="button" class="owl-dot"><span></span></button>
-					</div> -->
-				</div>
-				<!-- <section class="page-header page-header-modern bg-color-light-scale-1 page-header-md">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12 align-self-center p-static order-2 text-center">
-								<h1 class="text-dark font-weight-bold text-8">Grid Right Sidebar</h1>
-								<span class="sub-title text-dark">Check out our Latest News!</span>
-							</div>
-							<div class="col-md-12 align-self-center order-1">
-								<ul class="breadcrumb d-block text-center">
-									<li><a href="#">Home</a></li>
-									<li class="active">Blog</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</section> -->
+					<div class="owl-carousel dots-inside dots-horizontal-center show-dots-hover nav-inside nav-inside-plus nav-dark nav-md nav-font-size-md show-nav-hover mb-0" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 1}, '979': {'items': 1}, '1199': {'items': 1}}, 'loop': false, 'autoHeight': false, 'margin': 0, 'dots': true, 'dotsVerticalOffset': '-75px', 'nav': true, 'animateIn': 'fadeIn', 'animateOut': 'fadeOut', 'mouseDrag': false, 'touchDrag': false, 'pullDrag': false, 'autoplay': true, 'autoplayTimeout': 9000, 'autoplayHoverPause': true, 'rewind': true}">
 
-				<div class="container py-4">
+						<!-- Carousel Slide 1 -->
+						<div class="position-relative" data-dynamic-height="['670px','670px','670px','550px','500px']" style="background-image: url(img/slides/slide-bg.jpg); background-size: cover; background-position: center; height: 670px;">
+							<div class="position-absolute top-0 right-0 w-50pct w-lg-auto">
+								<img src="img/slides/slide-devices.jpg" class="w-100 appear-animation" data-appear-animation="fadeInLeftDownShorter" data-appear-animation-delay="500" alt="">
+							</div>
+							<div class="position-absolute top-50pct left-0 transform3dy-n50 w-50pct w-lg-auto">
+								<img src="img/slides/slide-laptop.jpg" class="w-100 appear-animation" data-appear-animation="fadeInRightDownShorter" data-appear-animation-delay="1000" alt="">
+							</div>
+							<div class="position-absolute transform3dy-n50">
+								<img src="img/slides/slide-parallax-porto-symbol.png" class="w-75 appear-animation" data-appear-animation="fadeInRightDownShorter" data-appear-animation-delay="1500" alt="" style="top: 20%; left: -20%;" data-plugin-options="{'forceAnimation': true}">
+							</div>
+
+							<div class="container position-relative z-index-1 h-100">
+								<div class="d-flex flex-column align-items-center justify-content-center h-100">
+									<h3 class="position-relative text-color-light text-5 line-height-5 font-weight-medium px-4 mb-2 appear-animation" data-appear-animation="fadeInDownShorter" data-plugin-options="{'minWindowWidth': 0}">
+										<span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
+											<img src="img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
+										</span>
+										DO YOU NEED A <span class="position-relative">NEW <span class="position-absolute left-50pct transform3dx-n50 top-0 mt-4"><img src="img/slides/slide-blue-line.png" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}" alt="" /></span></span>
+										<span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
+											<img src="img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
+										</span>
+									</h3>
+									<h1 class="text-color-light font-weight-extra-bold text-12 mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">WEB DESIGN?</h1>
+									<p class="text-4 text-color-light font-weight-light opacity-7 mb-0" data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Check out our options and features</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Carousel Slide 2 -->
+						<div class="position-relative overlay overlay-show overlay-op-8" data-dynamic-height="['670px','670px','670px','550px','500px']" style="background-image: url(img/slides/slide-bg-2.jpg); background-size: cover; background-position: center; height: 670px;">
+							<div class="container position-relative z-index-3 h-100">
+								<div class="row justify-content-center align-items-center h-100">
+									<div class="col-lg-6">
+										<div class="d-flex flex-column align-items-center">
+											<h3 class="position-relative text-color-light text-5 line-height-5 font-weight-medium px-4 mb-2 appear-animation" data-appear-animation="fadeInDownShorter" data-plugin-options="{'minWindowWidth': 0}">
+												<span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
+													<img src="img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
+												</span>
+												WE WORK HARD AND PORTO HAS
+												<span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
+													<img src="img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
+												</span>
+											</h3>
+											<h2 class="text-color-light font-weight-extra-bold text-12 mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">THE BEST DESIGN</h2>
+											<p class="text-4 text-color-light font-weight-light opacity-7 text-center mb-0" data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0, 'animationSpeed': 30}">Trusted by over <strong class="text-color-light">40,000</strong> satisfied users, Porto is a huge success in the one of largest world's MarketPlace</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Carousel Slide 3 -->
+						<div class="position-relative overlay overlay-color-primary overlay-show overlay-op-8" data-dynamic-height="['670px','670px','670px','550px','500px']" style="background-image: url(img/slides/slide-bg-6.jpg); background-size: cover; background-position: center; height: 670px;">
+							<div class="container position-relative z-index-3 h-100">
+								<div class="row justify-content-center align-items-center h-100">
+									<div class="col-lg-6">
+										<div class="d-flex flex-column align-items-center">
+											<h3 class="position-relative text-color-light text-4 line-height-5 font-weight-medium px-4 mb-2 appear-animation" data-appear-animation="fadeInDownShorter" data-plugin-options="{'minWindowWidth': 0}">
+												<span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
+													<img src="img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
+												</span>
+												WE CREATE DESIGNS, WE ARE
+												<span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
+													<img src="img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
+												</span>
+											</h3>
+											<h2 class="porto-big-title text-color-light font-weight-extra-bold mb-3" data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0, 'animationSpeed': 300, 'animationName': 'fadeInRightShorterOpacity', 'letterClass': 'd-inline-block'}">PORTO</h2>
+											<p class="text-4 text-color-light font-weight-light text-center mb-0" data-plugin-animated-letters data-plugin-options="{'startDelay': 2000, 'minWindowWidth': 0}">The best choice for your new website</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="home-intro bg-primary" id="home-intro">
+					<div class="container">
+
+						<div class="row align-items-center">
+							<div class="col-lg-8">
+								<p>
+									The fastest way to grow your business with the leader in <span class="highlighted-word">Technology</span>
+									<span>Check out our options and features included.</span>
+								</p>
+							</div>
+							<div class="col-lg-4">
+								<div class="get-started text-start text-lg-end">
+									<a href="#" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3">Get Started Now</a>
+									<div class="learn-more">or <a href="index.html">learn more.</a></div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="container">
+
+					<div class="row text-center pt-3">
+						<div class="col-md-10 mx-md-auto">
+							<h1 class="word-rotator slide font-weight-bold text-8 mb-3 appear-animation" data-appear-animation="fadeInUpShorter">
+								<span>Porto is </span>
+								<span class="word-rotator-words bg-dark">
+									<b class="is-visible">incredibly</b>
+									<b>especially</b>
+									<b>extremely</b>
+								</span>
+								<span> beautiful and fully responsive.</span>
+							</h1>
+							<p class="lead appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum, nulla vel pellentesque consequat, ante nulla hendrerit arcu, ac tincidunt mauris lacus sed leo.
+							</p>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
+					<div class="home-concept mt-5">
+						<div class="container">
+
+							<div class="row text-center">
+								<span class="sun"></span>
+								<span class="cloud"></span>
+								<div class="col-lg-2 ms-lg-auto">
+									<div class="process-image">
+										<img src="img/home/home-concept-item-1.png" alt="" />
+										<strong>Strategy</strong>
+									</div>
+								</div>
+								<div class="col-lg-2">
+									<div class="process-image process-image-on-middle">
+										<img src="img/home/home-concept-item-2.png" alt="" />
+										<strong>Planning</strong>
+									</div>
+								</div>
+								<div class="col-lg-2">
+									<div class="process-image">
+										<img src="img/home/home-concept-item-3.png" alt="" />
+										<strong>Build</strong>
+									</div>
+								</div>
+								<div class="col-lg-4 ms-lg-auto">
+									<div class="project-image">
+										<div id="fcSlideshow" class="fc-slideshow">
+											<ul class="fc-slides">
+												<li><a href="portfolio-single-wide-slider.html"><img class="img-fluid" src="img/projects/project-home-1.jpg" alt="" /></a></li>
+												<li><a href="portfolio-single-wide-slider.html"><img class="img-fluid" src="img/projects/project-home-2.jpg" alt="" /></a></li>
+												<li><a href="portfolio-single-wide-slider.html"><img class="img-fluid" src="img/projects/project-home-3.jpg" alt="" /></a></li>
+											</ul>
+										</div>
+										<strong class="our-work">Our Work</strong>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="container mb-5 pb-4">
 
 					<div class="row">
-						<div class="col-lg-3 order-lg-2">
-							<aside class="sidebar">
-								<form action="page-search-results.html" method="get">
-									<div class="input-group mb-3 pb-1">
-										<input class="form-control text-1" placeholder="Dog Breed Finder" name="s" id="s" type="text">
-										<button type="submit" class="btn btn-dark text-1 p-2"><i class="fas fa-search m-2"></i></button>
-									</div>
-								</form>
-								<!-- <h5 class="font-weight-semi-bold pt-4">Categories</h5>
-								<ul class="nav nav-list flex-column mb-5">
-									<li class="nav-item"><a class="nav-link" href="#">Design (2)</a></li>
-									<li class="nav-item">
-										<a class="nav-link active" href="#">Photos (4)</a>
-										<ul>
-											<li class="nav-item"><a class="nav-link" href="#">Animals</a></li>
-											<li class="nav-item"><a class="nav-link active" href="#">Business</a></li>
-											<li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
-											<li class="nav-item"><a class="nav-link" href="#">People</a></li>
-										</ul>
-									</li>
-									<li class="nav-item"><a class="nav-link" href="#">Videos (3)</a></li>
-									<li class="nav-item"><a class="nav-link" href="#">Lifestyle (2)</a></li>
-									<li class="nav-item"><a class="nav-link" href="#">Technology (1)</a></li>
-								</ul> -->
-								<div class="tabs tabs-dark mb-4 pb-2">
-									<ul class="nav nav-tabs">
-										<li class="nav-item"><a class="nav-link show active text-1 font-weight-bold text-uppercase" href="#popularPosts" data-bs-toggle="tab">Popular</a></li>
-										<li class="nav-item"><a class="nav-link text-1 font-weight-bold text-uppercase" href="#recentPosts" data-bs-toggle="tab">Latest</a></li>
-									</ul>
-									<div class="tab-content">
-										<div class="tab-pane active" id="popularPosts">
-											<ul class="simple-post-list">
-												<li>
-													<div class="post-image">
-														<div class="img-thumbnail img-thumbnail-no-borders d-block">
-															<a href="blog-post.html">
-																<img src="img/blog/square/blog-11.jpg" width="50" height="50" alt="">
-															</a>
-														</div>
-													</div>
-													<div class="post-info">
-														<a href="blog-post.html">Nullam Vitae Nibh Un Odiosters</a>
-														<div class="post-meta">
-															 Nov 10, 2021
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="post-image">
-														<div class="img-thumbnail img-thumbnail-no-borders d-block">
-															<a href="blog-post.html">
-																<img src="img/blog/square/blog-24.jpg" width="50" height="50" alt="">
-															</a>
-														</div>
-													</div>
-													<div class="post-info">
-														<a href="blog-post.html">Vitae Nibh Un Odiosters</a>
-														<div class="post-meta">
-															 Nov 10, 2021
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="post-image">
-														<div class="img-thumbnail img-thumbnail-no-borders d-block">
-															<a href="blog-post.html">
-																<img src="img/blog/square/blog-42.jpg" width="50" height="50" alt="">
-															</a>
-														</div>
-													</div>
-													<div class="post-info">
-														<a href="blog-post.html">Odiosters Nullam Vitae</a>
-														<div class="post-meta">
-															 Nov 10, 2021
-														</div>
-													</div>
-												</li>
-											</ul>
+						<div class="col mb-4">
+							<hr class="my-5">
+						</div>
+					</div>
+
+					<div class="row pb-3">
+						<div class="col-lg-8">
+							<h2 class="font-weight-normal text-7">Our <strong class="font-weight-extra-bold">Features</strong></h2>
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="feature-box feature-box-style-2">
+										<div class="feature-box-icon">
+											<i class="icons icon-support text-color-primary"></i>
 										</div>
-										<div class="tab-pane" id="recentPosts">
-											<ul class="simple-post-list">
-												<li>
-													<div class="post-image">
-														<div class="img-thumbnail img-thumbnail-no-borders d-block">
-															<a href="blog-post.html">
-																<img src="img/blog/square/blog-24.jpg" width="50" height="50" alt="">
-															</a>
-														</div>
-													</div>
-													<div class="post-info">
-														<a href="blog-post.html">Vitae Nibh Un Odiosters</a>
-														<div class="post-meta">
-															 Nov 10, 2021
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="post-image">
-														<div class="img-thumbnail img-thumbnail-no-borders d-block">
-															<a href="blog-post.html">
-																<img src="img/blog/square/blog-42.jpg" width="50" height="50" alt="">
-															</a>
-														</div>
-													</div>
-													<div class="post-info">
-														<a href="blog-post.html">Odiosters Nullam Vitae</a>
-														<div class="post-meta">
-															 Nov 10, 2021
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="post-image">
-														<div class="img-thumbnail img-thumbnail-no-borders d-block">
-															<a href="blog-post.html">
-																<img src="img/blog/square/blog-11.jpg" width="50" height="50" alt="">
-															</a>
-														</div>
-													</div>
-													<div class="post-info">
-														<a href="blog-post.html">Nullam Vitae Nibh Un Odiosters</a>
-														<div class="post-meta">
-															 Nov 10, 2021
-														</div>
-													</div>
-												</li>
-											</ul>
+										<div class="feature-box-info">
+											<h4 class="font-weight-bold text-4-5 mb-1">Customer Support</h4>
+											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa</p>
+										</div>
+									</div>
+									<div class="feature-box feature-box-style-2">
+										<div class="feature-box-icon">
+											<i class="icons icon-doc text-color-primary"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="font-weight-bold text-4-5 mb-1">HTML5 / CSS3 / JS</h4>
+											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa</p>
+										</div>
+									</div>
+									<div class="feature-box feature-box-style-2">
+										<div class="feature-box-icon">
+											<i class="icons icon-social-google text-color-primary"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="font-weight-bold text-4-5 mb-1">500+ Google Fonts</h4>
+											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa</p>
+										</div>
+									</div>
+									<div class="feature-box feature-box-style-2">
+										<div class="feature-box-icon">
+											<i class="icons icon-pencil text-color-primary"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="font-weight-bold text-4-5 mb-1">Colors</h4>
+											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa</p>
 										</div>
 									</div>
 								</div>
-								
-								<a href="https://www.portraitflip.com/pet-portraits/" target="_blank" class="my-4 pt-3 d-block">
-									<img alt="Porto" class="img-fluid" src="https://dogisworld.com/wp-content/uploads/2020/10/Banner-gif-1.gif" />
-								</a>
-							</aside>
+								<div class="col-sm-6">
+									<div class="feature-box feature-box-style-2">
+										<div class="feature-box-icon">
+											<i class="icons icon-layers text-color-primary"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="font-weight-bold text-4-5 mb-1">Sliders</h4>
+											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa</p>
+										</div>
+									</div>
+									<div class="feature-box feature-box-style-2">
+										<div class="feature-box-icon">
+											<i class="icons icon-user text-color-primary"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="font-weight-bold text-4-5 mb-1">Icons</h4>
+											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa</p>
+										</div>
+									</div>
+									<div class="feature-box feature-box-style-2">
+										<div class="feature-box-icon">
+											<i class="icons icon-menu text-color-primary"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="font-weight-bold text-4-5 mb-1">Buttons</h4>
+											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa</p>
+										</div>
+									</div>
+									<div class="feature-box feature-box-style-2">
+										<div class="feature-box-icon">
+											<i class="icons icon-screen-desktop text-color-primary"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="font-weight-bold text-4-5 mb-1">Lightbox</h4>
+											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa</p>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-						<div class="col-lg-9 order-lg-1">
-							<div class="blog-posts">
+						<div class="col-lg-4">
+							<h2 class="font-weight-normal text-6">and more...</h2>
 
-								<div class="row px-3">
-
-									<div class="col-sm-6">
-										<article class="post post-medium border-0 pb-0 mb-5">
-											<div class="post-image">
-												<a href="blog-post.html">
-													<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&resize=640:*" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
-												</a>
-											</div>
-
-											<div class="post-content">
-
-												<h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a href="blog-post.html">Amazing Mountain</a></h2>
-												<p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-
-												<div class="post-meta">
-													<span><i class="far fa-user"></i> By <a href="#">Bob Doe</a> </span>
-													<span><i class="far fa-folder"></i> <a href="#">News</a>, <a href="#">Design</a> </span>
-													<span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
-													<span class="d-block mt-2"><a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a></span>
-												</div>
-
-											</div>
-										</article>
+							<div class="accordion accordion-modern" id="accordion">
+								<div class="card card-default">
+									<div class="card-header">
+										<h4 class="card-title m-0">
+											<a class="accordion-toggle text-color-dark font-weight-bold" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapseOne">
+												<i class="icons icon-diamond text-color-primary"></i>
+												Creative Websites
+											</a>
+										</h4>
 									</div>
-
-									<div class="col-sm-6">
-										<article class="post post-medium border-0 pb-0 mb-5">
-											<div class="post-image">
-												<a href="blog-post.html">
-													<img src="img/blog/medium/blog-2.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
-												</a>
-											</div>
-
-											<div class="post-content">
-
-												<h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a href="blog-post.html">Creative Business</a></h2>
-												<p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-
-												<div class="post-meta">
-													<span><i class="far fa-user"></i> By <a href="#">John Doe</a> </span>
-													<span><i class="far fa-folder"></i> <a href="#">News</a>, <a href="#">Design</a> </span>
-													<span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
-													<span class="d-block mt-2"><a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a></span>
-												</div>
-
-											</div>
-										</article>
-									</div>
-
-									<div class="col-sm-6">
-										<article class="post post-medium border-0 pb-0 mb-5">
-											<div class="post-image">
-												<a href="blog-post.html">
-													<img src="img/blog/medium/blog-3.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
-												</a>
-											</div>
-
-											<div class="post-content">
-
-												<h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a href="blog-post.html">Unlimited Ways</a></h2>
-												<p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-
-												<div class="post-meta">
-													<span><i class="far fa-user"></i> By <a href="#">John Doe</a> </span>
-													<span><i class="far fa-folder"></i> <a href="#">News</a>, <a href="#">Design</a> </span>
-													<span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
-													<span class="d-block mt-2"><a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a></span>
-												</div>
-
-											</div>
-										</article>
-									</div>
-
-									<div class="col-sm-6">
-										<article class="post post-medium border-0 pb-0 mb-5">
-											<div class="post-image">
-												<a href="blog-post.html">
-													<img src="img/blog/medium/blog-4.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
-												</a>
-											</div>
-
-											<div class="post-content">
-
-												<h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a href="blog-post.html">Developer Life</a></h2>
-												<p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-
-												<div class="post-meta">
-													<span><i class="far fa-user"></i> By <a href="#">Jessica Doe</a> </span>
-													<span><i class="far fa-folder"></i> <a href="#">News</a>, <a href="#">Design</a> </span>
-													<span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
-													<span class="d-block mt-2"><a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a></span>
-												</div>
-
-											</div>
-										</article>
-									</div>
-
-									<div class="col-sm-6">
-										<article class="post post-medium border-0 pb-0 mb-5">
-											<div class="post-image">
-												<a href="blog-post.html">
-													<img src="img/blog/medium/blog-5.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
-												</a>
-											</div>
-
-											<div class="post-content">
-
-												<h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a href="blog-post.html">The Blue Sky</a></h2>
-												<p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-
-												<div class="post-meta">
-													<span><i class="far fa-user"></i> By <a href="#">Robert Doe</a> </span>
-													<span><i class="far fa-folder"></i> <a href="#">News</a>, <a href="#">Design</a> </span>
-													<span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
-													<span class="d-block mt-2"><a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a></span>
-												</div>
-
-											</div>
-										</article>
-									</div>
-
-									<div class="col-sm-6">
-										<article class="post post-medium border-0 pb-0 mb-5">
-											<div class="post-image">
-												<a href="blog-post.html">
-													<img src="img/blog/medium/blog-6.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
-												</a>
-											</div>
-
-											<div class="post-content">
-
-												<h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a href="blog-post.html">Night Life</a></h2>
-												<p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-
-												<div class="post-meta">
-													<span><i class="far fa-user"></i> By <a href="#">Robert Doe</a> </span>
-													<span><i class="far fa-folder"></i> <a href="#">News</a>, <a href="#">Design</a> </span>
-													<span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
-													<span class="d-block mt-2"><a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a></span>
-												</div>
-
-											</div>
-										</article>
-									</div>
-
-									<div class="col-sm-6">
-										<article class="post post-medium border-0 pb-0 mb-5">
-											<div class="post-image">
-												<a href="blog-post.html">
-													<img src="img/blog/medium/blog-7.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
-												</a>
-											</div>
-
-											<div class="post-content">
-
-												<h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a href="blog-post.html">Another World Perspective</a></h2>
-												<p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-
-												<div class="post-meta">
-													<span><i class="far fa-user"></i> By <a href="#">John Doe</a> </span>
-													<span><i class="far fa-folder"></i> <a href="#">News</a>, <a href="#">Design</a> </span>
-													<span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
-													<span class="d-block mt-2"><a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a></span>
-												</div>
-
-											</div>
-										</article>
-									</div>
-
-									<div class="col-sm-6">
-										<article class="post post-medium border-0 pb-0 mb-5">
-											<div class="post-image">
-												<a href="blog-post.html">
-													<img src="img/blog/medium/blog-8.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
-												</a>
-											</div>
-
-											<div class="post-content">
-
-												<h2 class="font-weight-semibold text-5 line-height-6 mt-3 mb-2"><a href="blog-post.html">The Creative Team</a></h2>
-												<p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-
-												<div class="post-meta">
-													<span><i class="far fa-user"></i> By <a href="#">Robert Doe</a> </span>
-													<span><i class="far fa-folder"></i> <a href="#">News</a>, <a href="#">Design</a> </span>
-													<span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span>
-													<span class="d-block mt-2"><a href="blog-post.html" class="btn btn-xs btn-light text-1 text-uppercase">Read More</a></span>
-												</div>
-
-											</div>
-										</article>
-									</div>
-
-								</div>
-	
-								<div class="row">
-									<div class="col">
-										<ul class="pagination float-end">
-											<li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-left"></i></a></li>
-											<li class="page-item active"><a class="page-link" href="#">1</a></li>
-											<li class="page-item"><a class="page-link" href="#">2</a></li>
-											<li class="page-item"><a class="page-link" href="#">3</a></li>
-											<li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-right"></i></a></li>
-										</ul>
+									<div id="collapseOne" class="collapse show">
+										<div class="card-body text-2">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blanorem ipsum dolor sit amet, consecte.</p>
+											<p class="mb-0">Adipiscing elit phasellus blanit ma... <a href="#" class="d-block text-color-dark font-weight-semibold pt-4">read more <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a></p>
+										</div>
 									</div>
 								</div>
+								<div class="card card-default">
+									<div class="card-header">
+										<h4 class="card-title m-0">
+											<a class="accordion-toggle text-color-dark font-weight-bold" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapseTwo">
+												<i class="icons icon-bubble text-color-primary"></i>
+												Contact Forms
+											</a>
+										</h4>
+									</div>
+									<div id="collapseTwo" class="collapse">
+										<div class="card-body text-2">
+											<p class="mb-0">Donec tellus massa, tristique sit amet condimentum vel, facilisis quis sapien.</p>
+										</div>
+									</div>
+								</div>
+								<div class="card card-default">
+									<div class="card-header">
+										<h4 class="card-title m-0">
+											<a class="accordion-toggle text-color-dark font-weight-bold" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapseThree">
+												<i class="icons icon-grid text-color-primary"></i>
+												Portfolio Pages
+											</a>
+										</h4>
+									</div>
+									<div id="collapseThree" class="collapse">
+										<div class="card-body text-2">
+											<p class="mb-0">Donec tellus massa, tristique sit amet condimentum vel, facilisis quis sapien.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
+					<hr class="solid my-5">
+
+					<div class="row text-center pt-4">
+						<div class="col">
+							<h2 class="word-rotator slide font-weight-bold text-8 mb-2">
+								<span>We're not the only ones </span>
+								<span class="word-rotator-words bg-primary">
+									<b class="is-visible">excited</b>
+									<b>happy</b>
+								</span>
+								<span> about Porto Template...</span>
+							</h2>
+							<h4 class="text-primary lead tall text-4">40,000 CUSTOMERS IN 100 COUNTRIES USE PORTO TEMPLATE. MEET OUR CUSTOMERS.</h4>
+						</div>
+					</div>
+
+					<div class="row text-center mt-5">
+						<div class="owl-carousel owl-theme carousel-center-active-item" data-plugin-options="{'responsive': {'0': {'items': 1}, '476': {'items': 1}, '768': {'items': 5}, '992': {'items': 7}, '1200': {'items': 7}}, 'autoplay': true, 'autoplayTimeout': 3000, 'dots': false}">
+							<div>
+								<img class="img-fluid" src="img/logos/logo-1.png" alt="">
+							</div>
+							<div>
+								<img class="img-fluid" src="img/logos/logo-2.png" alt="">
+							</div>
+							<div>
+								<img class="img-fluid" src="img/logos/logo-3.png" alt="">
+							</div>
+							<div>
+								<img class="img-fluid" src="img/logos/logo-4.png" alt="">
+							</div>
+							<div>
+								<img class="img-fluid" src="img/logos/logo-5.png" alt="">
+							</div>
+							<div>
+								<img class="img-fluid" src="img/logos/logo-6.png" alt="">
+							</div>
+							<div>
+								<img class="img-fluid" src="img/logos/logo-4.png" alt="">
+							</div>
+							<div>
+								<img class="img-fluid" src="img/logos/logo-2.png" alt="">
 							</div>
 						</div>
 					</div>
 
 				</div>
 
-			</div>
-			<div class="owl-carousel-wrapper position-relative" style="margin-bottom: 50px;">
-				<div class="owl-carousel-loader">
-					<div class="bounce-loader">
-						<div class="bounce1"></div>
-						<div class="bounce2"></div>
-						<div class="bounce3"></div>
-					</div>
-				</div>
-				<div class="owl-carousel dots-inside dots-horizontal-center show-dots-hover nav-inside nav-inside-plus nav-dark nav-md nav-font-size-md show-nav-hover mb-0" style="height: 50%;" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 1}, '979': {'items': 1}, '1199': {'items': 1}}, 'loop': false, 'autoHeight': false, 'margin': 0, 'dots': true,  'nav': true, 'animateIn': 'fadeIn', 'animateOut': 'fadeOut', 'mouseDrag': false, 'touchDrag': false, 'pullDrag': false, 'autoplay': true, 'autoplayTimeout': 9000, 'autoplayHoverPause': true, 'rewind': true}">
-
-					<!-- Carousel Slide 2 -->
-					<div class="position-relative overlay overlay-show overlay-op-8"  style="background-image: url(img/slides/slide-bg-2.jpg); background-size: cover; background-position: center; height: 300px;">
-						<div class="container position-relative z-index-3 h-100">
-							<div class="row justify-content-center align-items-center h-100">
+				<section class="section section-custom-map appear-animation lazyload" data-appear-animation="fadeInUpShorter" data-src-bg="img/map.png" style="background-color: transparent; background-position: center 0; background-repeat: no-repeat;">
+					<section class="section section-default section-footer">
+						<div class="container">
+							<div class="row mt-5 appear-animation" data-appear-animation="fadeInUpShorter">
 								<div class="col-lg-6">
-									<div class="d-flex flex-column align-items-center">
-										<h3 class="position-relative text-color-light text-5 line-height-5 font-weight-medium px-4 mb-2 appear-animation" data-appear-animation="fadeInDownShorter" data-plugin-options="{'minWindowWidth': 0}">
-											<!-- <span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
-												<img src="img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
-											</span> -->
-											Which flea powder is best for my dog?
-											<!-- <span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
-												<img src="img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
-											</span> -->
-										</h3>
-										
-										
-										<!-- <h2 class="text-color-light font-weight-extra-bold text-12 mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">Fleabusters Rx for Fleas.</h2> -->
-										<p class="text-4 text-color-light font-weight-light opacity-7 text-center mb-0" data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0, 'animationSpeed': 30}"><strong class="text-color-light"></strong> Fleabusters Rx for Fleas.</p>
+									<div class="recent-posts mb-5">
+										<h2 class="font-weight-normal text-6 mb-4"><strong class="font-weight-extra-bold">Latest</strong> Posts</h2>
+										<div class="owl-carousel owl-theme dots-title mb-0" data-plugin-options="{'items': 1, 'autoHeight': true, 'autoplay': true, 'autoplayTimeout': 8000}">
+											<div class="row">
+												<div class="col-lg-6 mb-4 mb-lg-0">
+													<article>
+														<div class="row">
+															<div class="col-auto pe-0">
+																<div class="date">
+																	<span class="day font-weight-extra-bold">15</span>
+																	<span class="month text-1">JAN</span>
+																</div>
+															</div>
+															<div class="col ps-1">
+																<h4 class="text-primary text-4"><a class="d-block" href="blog-post.html">Lorem ipsum dolor sit amet, consectetur</a></h4>
+																<p class="pe-4 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+																<a href="/" class="read-more text-color-dark font-weight-semibold text-2">read more <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+															</div>
+														</div>
+													</article>
+												</div>
+												<div class="col-lg-6">
+													<article>
+														<div class="row">
+															<div class="col-auto pe-0">
+																<div class="date">
+																	<span class="day font-weight-extra-bold">14</span>
+																	<span class="month text-1">JAN</span>
+																</div>
+															</div>
+															<div class="col ps-1">
+																<h4 class="text-primary text-4"><a class="d-block" href="blog-post.html">Lorem ipsum dolor sit amet, consectetur</a></h4>
+																<p class="pe-4 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+																<a href="/" class="read-more text-color-dark font-weight-semibold text-2">read more <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+															</div>
+														</div>
+													</article>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-lg-6 mb-4 mb-lg-0">
+													<article>
+														<div class="row">
+															<div class="col-auto pe-0">
+																<div class="date">
+																	<span class="day font-weight-extra-bold">13</span>
+																	<span class="month text-1">JAN</span>
+																</div>
+															</div>
+															<div class="col ps-1">
+																<h4 class="text-primary text-4"><a class="d-block" href="blog-post.html">Lorem ipsum dolor sit amet, consectetur</a></h4>
+																<p class="pe-4 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+																<a href="/" class="read-more text-color-dark font-weight-semibold text-2">read more <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+															</div>
+														</div>
+													</article>
+												</div>
+												<div class="col-lg-6">
+													<article>
+														<div class="row">
+															<div class="col-auto pe-0">
+																<div class="date">
+																	<span class="day font-weight-extra-bold">12</span>
+																	<span class="month text-1">JAN</span>
+																</div>
+															</div>
+															<div class="col ps-1">
+																<h4 class="text-primary text-4"><a class="d-block" href="blog-post.html">Lorem ipsum dolor sit amet, consectetur</a></h4>
+																<p class="pe-4 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+																<a href="/" class="read-more text-color-dark font-weight-semibold text-2">read more <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+															</div>
+														</div>
+													</article>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-lg-6 mb-4 mb-lg-0">
+													<article>
+														<div class="row">
+															<div class="col-auto pe-0">
+																<div class="date">
+																	<span class="day font-weight-extra-bold">11</span>
+																	<span class="month text-1">JAN</span>
+																</div>
+															</div>
+															<div class="col ps-1">
+																<h4 class="text-primary text-4"><a href="blog-post.html">Lorem ipsum dolor sit amet, consectetur</a></h4>
+																<p class="pe-4 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+																<a href="/" class="read-more text-color-dark font-weight-semibold text-2">read more <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+															</div>
+														</div>
+													</article>
+												</div>
+												<div class="col-lg-6">
+													<article>
+														<div class="row">
+															<div class="col-auto pe-0">
+																<div class="date">
+																	<span class="day font-weight-extra-bold">10</span>
+																	<span class="month text-1">JAN</span>
+																</div>
+															</div>
+															<div class="col ps-1">
+																<h4 class="text-primary text-4"><a href="blog-post.html">Lorem ipsum dolor sit amet, consectetur</a></h4>
+																<p class="pe-4 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+																<a href="/" class="read-more text-color-dark font-weight-semibold text-2">read more <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+															</div>
+														</div>
+													</article>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<h2 class="font-weight-normal text-6 mb-4"><strong class="font-weight-extra-bold">What</strong> Client’s Say</h2>
+									<div class="row">
+										<div class="owl-carousel owl-theme dots-title dots-title-pos-2 mb-0" data-plugin-options="{'items': 1, 'autoHeight': true}">
+											<div>
+												<div class="col">
+													<div class="testimonial testimonial-primary">
+														<blockquote>
+															<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat.</p>
+														</blockquote>
+														<div class="testimonial-arrow-down"></div>
+														<div class="testimonial-author">
+															<div class="testimonial-author-thumbnail">
+																<img src="img/clients/client-1.jpg" class="rounded-circle" alt="" />
+															</div>
+															<p><strong>John Doe</strong><span>Okler</span></p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div>
+												<div class="col">
+													<div class="testimonial testimonial-primary">
+														<blockquote>
+															<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat.</p>
+														</blockquote>
+														<div class="testimonial-arrow-down"></div>
+														<div class="testimonial-author">
+															<div class="testimonial-author-thumbnail">
+																<img src="img/clients/client-1.jpg" class="rounded-circle" alt="" />
+															</div>
+															<p><strong>John Doe</strong><span>Okler</span></p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-
-					<!-- Carousel Slide 2 -->
-					<div class="position-relative overlay overlay-show overlay-op-8"  style="background-image: url(img/slides/slide-bg-2.jpg); background-size: cover; background-position: center; height: 300px;">
-						<div class="container position-relative z-index-3 h-100">
-							<div class="row justify-content-center align-items-center h-100">
-								<div class="col-lg-6">
-									<div class="d-flex flex-column align-items-center">
-										<h3 class="position-relative text-color-light text-5 line-height-5 font-weight-medium px-4 mb-2 appear-animation" data-appear-animation="fadeInDownShorter" data-plugin-options="{'minWindowWidth': 0}">
-											<!-- <span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
-												<img src="img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
-											</span> -->
-											Which flea powder is best for my dog?
-											<!-- <span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
-												<img src="img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
-											</span> -->
-										</h3>
-										
-										
-										<!-- <h2 class="text-color-light font-weight-extra-bold text-12 mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">Fleabusters Rx for Fleas.</h2> -->
-										<p class="text-4 text-color-light font-weight-light opacity-7 text-center mb-0" data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0, 'animationSpeed': 30}"><strong class="text-color-light"></strong> Fleabusters Rx for Fleas.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Carousel Slide 3 -->
-					<div class="position-relative overlay overlay-show overlay-op-8"  style="background-image: url(img/slides/slide-bg-2.jpg); background-size: cover; background-position: center; height: 300px;">
-						<div class="container position-relative z-index-3 h-100">
-							<div class="row justify-content-center align-items-center h-100">
-								<div class="col-lg-6">
-									<div class="d-flex flex-column align-items-center">
-										<h3 class="position-relative text-color-light text-5 line-height-5 font-weight-medium px-4 mb-2 appear-animation" data-appear-animation="fadeInDownShorter" data-plugin-options="{'minWindowWidth': 0}">
-											<!-- <span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
-												<img src="img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
-											</span> -->
-											Which flea powder is best for my dog?
-											<!-- <span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
-												<img src="img/slides/slide-title-border.png" class="w-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
-											</span> -->
-										</h3>
-										
-										
-										<!-- <h2 class="text-color-light font-weight-extra-bold text-12 mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">Fleabusters Rx for Fleas.</h2> -->
-										<p class="text-4 text-color-light font-weight-light opacity-7 text-center mb-0" data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0, 'animationSpeed': 30}"><strong class="text-color-light"></strong> Fleabusters Rx for Fleas.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-			<div>
-				<section id="newsletter">
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-lg-6">
-								<h3>Join our pup pack!</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text</p>
-							</div>
-						</div>
-					  <div class="row justify-content-center">
-							<div class="col-lg-6">
-								<form action="" method="">
-									<input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
-								</form>
-							</div>
-					  </div>
-						<div class="social-links">
-							<a href="#"><i class="fab fa-facebook-f"></i></a>
-							<a href="#"><i class="fab fa-youtube"></i></a>
-							<a href="#"><i class="fab fa-pinterest-p"></i></a>
-							<a href="#"><i class="fab fa-instagram"></i></a>
-						</div>
-					</div>
+					</section>
 				</section>
-
 			</div>
 
-			<footer id="footer" style="margin-top: 0;">
+			<footer id="footer">
 				<div class="container">
 					<div class="row py-5 ">
 						<div class="col-md-9 offset-md-1 offset-lg-0 mb-4 mb-lg-0 d-flex ">
@@ -1538,7 +1595,7 @@
 							</div>
 						</div>
 						<div class="col-md-4 col-lg-3 mb-4 mb-lg-0 text-center text-lg-end">
-							<p>© Copyright 2021 By PortraitFlip.</p>
+							<p>© Copyright 2021. All Rights Reserved.</p>
 							
 						</div>
 						<div>
@@ -1569,6 +1626,11 @@
 		<!-- Theme Base, Components and Settings -->
 		<script src="js/theme.js"></script>
 
+		<!-- Circle Flip Slideshow Script -->
+		<script src="vendor/circle-flip-slideshow/js/jquery.flipshow.min.js"></script>
+		<!-- Current Page Views -->
+		<script src="js/views/view.home.js"></script>
+
 		<!-- Theme Custom -->
 		<script src="js/custom.js"></script>
 
@@ -1576,4 +1638,5 @@
 		<script src="js/theme.init.js"></script>
 
 	</body>
+
 </html>
